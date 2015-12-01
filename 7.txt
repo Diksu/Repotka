@@ -1,14 +1,14 @@
-#include <stdio.h>//zmiana1
- #include <stdlib.h>//zmiana2
- //zmiana3
- typedef struct element {//zmiana4
-   struct element *next;//zmiana5
-   unsigned long val;//zmiana6
- } el_listy;//zmiana7
- //zmiana8
- el_listy *first;//zmiana9
- //zmiana100
- void dodaj_do_listy (el_listy *lista, unsigned long liczba)
+#include <stdio.h>
+ #include <stdlib.h>
+
+ typedef struct element {
+   struct element *next;
+   unsigned long val;
+ } el_listy;
+
+ el_listy *first;
+
+ void dodaj_do_listy (el_listy *lista, unsigned long liczba)//zmiana11
  {
    el_listy *wsk, *nowy;
    wsk = lista;
