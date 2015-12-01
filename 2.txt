@@ -8,7 +8,7 @@
  //zmiana8
  el_listy *first;//zmiana9
  //zmiana10
- void dodaj_do_listy (el_listy *lista, unsigned long liczba)
+ void dodaj_do_listy (el_listy *lista, unsigned long liczba)//zmiana1n
  {
    el_listy *wsk, *nowy;
    wsk = lista;
