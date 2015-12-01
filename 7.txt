@@ -14,7 +14,7 @@
    wsk = lista;//zmiana14
    while (wsk->next != NULL)//zmiana15
      { //zmiana16
-     wsk = wsk->next; /* przesuwamy wsk a¿ znajdziemy ostatni element */
+     wsk = wsk->next; /* przesuwamy wsk a¿ znajdziemy ostatni element *//zmiana17
      }
    nowy =(el_listy*) malloc (sizeof(el_listy));
    nowy->val = liczba;
