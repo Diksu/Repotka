@@ -1,5 +1,5 @@
-#include <stdio.h>//Tunaszawspolna
- #include <stdlib.h>
+#include <stdio.h>//Tunaszawspolna nie komentuje
+#include <stdlib.h>
  
  typedef struct element {
    struct element *next;
