@@ -1,5 +1,5 @@
-#include <stdio.h> //mojamodyfikacjawpierwszejlinijce
- #include <stdlib.h>
+#include <stdio.h> //mojamodyfikacjawpierwszejlinijce heheh
+ #include <stdlib.h> //mojemodyfikacjap
  
  typedef struct element {
    struct element *next;
