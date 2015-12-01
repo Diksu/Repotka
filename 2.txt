@@ -1,6 +1,6 @@
 #include <stdio.h> // zmiana1
  #include <stdlib.h> // zmiana2
- 
+ //zmiana3
  typedef struct element {
    struct element *next;
    unsigned long val;
