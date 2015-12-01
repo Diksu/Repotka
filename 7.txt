@@ -13,7 +13,7 @@
    el_listy *wsk, *nowy;//zmiana13
    wsk = lista;//zmiana14
    while (wsk->next != NULL)//zmiana15
-     { 
+     { //zmiana16
      wsk = wsk->next; /* przesuwamy wsk a¿ znajdziemy ostatni element */
      }
    nowy =(el_listy*) malloc (sizeof(el_listy));
