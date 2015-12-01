@@ -5,7 +5,7 @@
    struct element *next;//zmiana5
    unsigned long val;//zmiana6
  } el_listy;//zmiana7
- 
+ //zmiana8
  el_listy *first;
  
  void dodaj_do_listy (el_listy *lista, unsigned long liczba)
