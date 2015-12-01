@@ -16,7 +16,7 @@
      { //zmiana16
      wsk = wsk->next; /* przesuwamy wsk a¿ znajdziemy ostatni element *//zmiana17
      }//zmiana18
-   nowy =(el_listy*) malloc (sizeof(el_listy));
+   nowy =(el_listy*) malloc (sizeof(el_listy));//zmiana19
    nowy->val = liczba;
    nowy->next = NULL;
    wsk->next = nowy; /* podczepiamy nowy element do ostatniego z listy */
