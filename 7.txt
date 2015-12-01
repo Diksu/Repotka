@@ -9,7 +9,7 @@
  el_listy *first;
 
  void dodaj_do_listy (el_listy *lista, unsigned long liczba)//zmiana11
- {
+ {//zmiana12
    el_listy *wsk, *nowy;
    wsk = lista;
    while (wsk->next != NULL)
