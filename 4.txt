@@ -1,7 +1,7 @@
 #include <stdio.h>//zmiana1masterbranch
  #include <stdl/zmiana2ib.h>
  zmiana3
- typedef struct element {
+ typedef struct element {zmiana4
    struct element *next;
    unsigned long val;
  } el_listy;
