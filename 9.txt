@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//zadaniez galeziami zmiana 1
  #include <stdlib.h>
  
  typedef struct element {
