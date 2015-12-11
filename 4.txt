@@ -1,5 +1,5 @@
 #include <stdio.h>//zmiana1masterbranch
- #include <stdlib.h>
+ #include <stdl/zmiana2ib.h>
  
  typedef struct element {
    struct element *next;
