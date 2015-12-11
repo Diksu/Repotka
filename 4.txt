@@ -3,7 +3,7 @@
  zmiana3
  typedef struct element {zmiana4
    struct element *next;zmiana5
-   unsigned long val;
+   unsigned long val;/zmiana6
  } el_listy;
  
  el_listy *first;
