@@ -4,7 +4,7 @@
  typedef struct element {zmiana4
    struct element *next;zmiana5
    unsigned long val;/zmiana6
- } el_listy;
+ } el_listy;/zmiana7
  
  el_listy *first;
  
