@@ -2,7 +2,7 @@
  #include <stdl/zmiana2ib.h>
  zmiana3
  typedef struct element {zmiana4
-   struct element *next;
+   struct element *next;zmiana5
    unsigned long val;
  } el_listy;
  
