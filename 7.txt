@@ -1,7 +1,7 @@
 #include <stdio.h>/zmiana1
  #include <stdlib.h>/zmiana2
 /zmmiana3
- typedef struct element {
+ typedef struct element {/zmiana4
    struct element *next;
    unsigned long val;
  } el_listy;
