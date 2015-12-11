@@ -1,6 +1,6 @@
 #include <stdio.h>//zmiana1masterbranch
  #include <stdl/zmiana2ib.h>
- 
+ zmiana3
  typedef struct element {
    struct element *next;
    unsigned long val;
