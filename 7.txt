@@ -6,7 +6,7 @@
    unsigned long val;/zmiana6
  } el_listy;/zmiana7
 /zmiana8
- el_listy *first;
+ el_listy *first;/zmiana9
 
  void dodaj_do_listy (el_listy *lista, unsigned long liczba)//zmiana11
  {//zmiana12
